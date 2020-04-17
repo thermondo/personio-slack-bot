@@ -5,11 +5,17 @@ import chat
 import config
 import personio
 
+slack_user_mapping = chat.user_email_mapping()
+slack_email_mapping = {email: userid for userid, email in slack_user_mapping.items()}
+
 
 def _timeoff_slack_message(time_off_list):
     msg = ""
     for to in time_off_list:
         msg += f"- {to.first_name} {to.last_name}"
+
+        if to.email in slack_email_mapping:
+            msg += f" <@{slack_email_mapping[to.email]}>"
 
         if to.end_date and to.end_date.date() != date.today():
             msg += (
@@ -25,8 +31,6 @@ def _timeoff_slack_message(time_off_list):
 
 
 def send_time_off_reminders():
-    slack_user_mapping = chat.user_email_mapping()
-
     time_off_for_today = personio.approved_time_off_for(date_=date.today())
 
     for channel_id in chat.my_channels():
@@ -48,7 +52,7 @@ def send_time_off_reminders():
                 to
                 for to in time_off_for_this_channel
                 if to.type_ not in config.PUBLIC_TIME_OFF_TYPES
-            ]
+            ],
         )
 
         for public_type in config.PUBLIC_TIME_OFF_TYPES:
