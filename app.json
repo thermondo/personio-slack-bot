@@ -22,7 +22,8 @@
   "formation": {
   },
   "addons": [
-    "scheduler"
+    "scheduler",
+    "sentry:f1"
   ],
   "buildpacks": [
     {
