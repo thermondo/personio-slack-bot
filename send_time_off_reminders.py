@@ -16,7 +16,7 @@ for channel_id in chat.my_channels():
     }
 
     time_off_for_this_channel = sorted(
-        [to for to in time_off_for_today if to.email not in emails],
+        [to for to in time_off_for_today if to.email in emails],
         key=lambda t: (t.type_, t.email),
     )
 
