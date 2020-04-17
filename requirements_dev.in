@@ -1,0 +1,12 @@
+# Get production requirements
+-r requirements.in
+
+# Linting & QA
+black
+isort
+flake8
+pydocstyle
+
+# Release
+pip-tools
+invoke
