@@ -5,16 +5,12 @@ import config
 import personio
 
 slack_user_mapping = chat.user_email_mapping()
-slack_email_mapping = {email: userid for userid, email in slack_user_mapping.items()}
 
 
 def _timeoff_slack_message(time_off_list):
     msg = ""
     for to in time_off_list:
         msg += f"- {to.first_name} {to.last_name}"
-
-        if to.email in slack_email_mapping:
-            msg += f" <@{slack_email_mapping[to.email]}>"
 
         if to.end_date and to.end_date.date() != date.today():
             msg += (
