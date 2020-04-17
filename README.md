@@ -42,6 +42,7 @@ To do it and have access to Slack API credentials, click on _Install your app to
 Other environment variables that are optional:
 
 * `SENTRY_DSN`: for Sentry integration purposes
+* `PUBLIC_TIME_OFF_TYPES`: comma-separated list of time-off-type-names which should be public.
 
 ## Commands for the scheduler
 
@@ -51,3 +52,5 @@ Other environment variables that are optional:
 
 For every channel this bot is invited, it will get the member-list.
 Then with their email-addresses it will find time-offs of the channel-members for the current day and generates a message for these in this channel.
+
+All time-off-types are treated private, so are not shown in the message. You can define exceptions in `PUBLIC_TIME_OFF_TYPES` that are then shown separately.
