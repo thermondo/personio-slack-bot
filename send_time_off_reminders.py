@@ -40,6 +40,9 @@ def send_time_off_reminders():
             key=lambda t: t.email,
         )
 
+        if not time_off_for_this_channel:
+            continue
+
         msg = "*_Who is off today?_* \n"
 
         msg += _timeoff_slack_message(
