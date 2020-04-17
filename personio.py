@@ -61,12 +61,3 @@ def approved_time_off_for(date_: datetime):
         for to in response.json()["data"]
         if to["attributes"]["status"] == "approved"
     ]
-
-
-# def time_off_types():
-#     response = requests.get(
-#         url=_api_url + "company/time-off-types",
-#         headers={"Authorization": "Bearer {}".format(_token())},
-#     )
-#     response.raise_for_status()
-#     return response.json()
