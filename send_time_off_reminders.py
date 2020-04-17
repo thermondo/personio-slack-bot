@@ -37,7 +37,7 @@ def send_time_off_reminders():
         }
 
         time_off_for_this_channel = sorted(
-            [to for to in time_off_for_today if to.email not in emails],
+            [to for to in time_off_for_today if to.email in emails],
             key=lambda t: t.email,
         )
 
