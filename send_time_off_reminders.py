@@ -1,5 +1,4 @@
 from datetime import date
-from itertools import groupby
 
 import chat
 import config

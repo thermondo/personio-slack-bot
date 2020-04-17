@@ -27,6 +27,7 @@ In the Scope add
 
 * channels:read
 * chat:write
+* groups:read
 * users:read
 * users:read.email
 

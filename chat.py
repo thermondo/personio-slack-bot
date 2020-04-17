@@ -8,13 +8,15 @@ slack_client = WebClient(config.SLACK_BOT_TOKEN)
 def my_channels():
     return [
         channel["id"]
-        for channel in slack_client.channels_list(exclude_archived=1)["channels"]
+        for channel in slack_client.conversations_list(
+            exclude_archived=1, types="public_channel,private_channel", limit=1000,
+        )["channels"]
         if channel["is_member"] is True
     ]
 
 
 def channel_members(channel_id):
-    return slack_client.channels_info(channel=channel_id)["channel"]["members"]
+    return slack_client.conversations_members(channel=channel_id)["members"]
 
 
 def user_email_mapping():
