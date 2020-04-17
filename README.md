@@ -39,6 +39,10 @@ To do it and have access to Slack API credentials, click on _Install your app to
 
 * `SLACK_BOT_TOKEN`: in the section _Install App_, copy it from _Bot User OAuth Access Token_.
 
+Other environment variables that are optional:
+
+* `SENTRY_DSN`: for Sentry integration purposes
+
 ## Commands for the scheduler
 
 ### send daily time-off reminder
