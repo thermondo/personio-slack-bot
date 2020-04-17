@@ -1,8 +1,8 @@
-import os
-
 from slack import WebClient
 
-slack_client = WebClient(os.environ.get("SLACK_BOT_TOKEN"))
+import config
+
+slack_client = WebClient(config.SLACK_BOT_TOKEN)
 
 
 def my_channels():
@@ -27,3 +27,9 @@ def user_email_mapping():
             and "email" in user["profile"]
         )
     }
+
+
+def post_message(channel_id, text):
+    slack_client.chat_postMessage(
+        channel=channel_id, text=text,
+    )
