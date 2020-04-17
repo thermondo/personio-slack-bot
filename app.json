@@ -1,0 +1,32 @@
+{
+  "name": "personio-slack-bot",
+  "description": "Slack-Bot for integration to person.io.",
+  "logo": "https://avatars1.githubusercontent.com/u/2737160",
+  "keywords": [],
+  "repository": "https://github.com/Thermondo/personio-slack-bot",
+  "success_url": "/",
+  "env": {
+    "SLACK_BOT_TOKEN": {
+      "description": "Slack bot token",
+      "value": ""
+    },
+    "PERSONIO_CLIENT_ID": {
+      "description": "person.io client id",
+      "value": ""
+    },
+    "PERSONIO_CLIENT_SECRET": {
+      "description": "person.io client secret",
+      "value": ""
+    }
+  },
+  "formation": {
+  },
+  "addons": [
+    "scheduler"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
