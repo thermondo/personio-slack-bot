@@ -5,7 +5,7 @@
 #    pip-compile --no-annotate requirements_dev.in
 #
 aiohttp==3.7.4
-appdirs==1.4.3
+appdirs==1.4.4
 async-timeout==3.0.1
 attrs==19.3.0
 black==19.10b0
