@@ -16,7 +16,7 @@ entrypoints==0.3
 flake8==3.7.9
 idna==2.9
 invoke==1.4.1
-isort==4.3.21
+isort==5.8.0
 mccabe==0.6.1
 multidict==4.7.5
 pathspec==0.8.0
