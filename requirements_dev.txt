@@ -18,7 +18,7 @@ idna==2.9
 invoke==1.4.1
 isort==5.8.0
 mccabe==0.6.1
-multidict==4.7.5
+multidict==5.1.0
 mypy-extensions==0.4.3
 pathspec==0.8.1
 pep517==0.10.0
