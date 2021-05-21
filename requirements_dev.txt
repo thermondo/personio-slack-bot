@@ -35,7 +35,7 @@ slackclient==2.9.3
 snowballstemmer==2.0.0
 toml==0.10.2
 typing-extensions==3.10.0.0
-urllib3==1.25.9
+urllib3==1.26.4
 yarl==1.6.3
 
 # The following packages are considered to be unsafe in a requirements file:
