@@ -14,7 +14,7 @@ chardet==4.0.0
 charset-normalizer==2.0.3
 click==8.0.1
 flake8==3.9.2
-idna==2.10
+idna==3.2
 invoke==1.6.0
 isort==5.9.2
 mccabe==0.6.1
