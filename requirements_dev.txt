@@ -34,7 +34,7 @@ six==1.16.0
 slackclient==2.9.3
 snowballstemmer==2.1.0
 tomli==1.2.1
-typing-extensions==3.10.0.0
+typing-extensions==3.10.0.2
 urllib3==1.26.6
 wheel==0.37.0
 yarl==1.6.3
