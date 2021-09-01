@@ -22,7 +22,7 @@ mypy-extensions==0.4.3
 pathspec==0.9.0
 pep517==0.11.0
 pip-tools==6.2.0
-platformdirs==2.2.0
+platformdirs==2.3.0
 pycodestyle==2.7.0
 pydocstyle==6.1.1
 pyflakes==2.3.1
