@@ -9,7 +9,7 @@ async-timeout==3.0.1
 attrs==21.2.0
 certifi==2021.5.30
 chardet==4.0.0
-charset-normalizer==2.0.4
+charset-normalizer==2.0.5
 idna==3.2
 multidict==5.1.0
 python-dateutil==2.8.2
