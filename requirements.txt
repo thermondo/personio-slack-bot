@@ -18,5 +18,5 @@ sentry-sdk==1.4.1
 six==1.16.0
 slackclient==2.9.3
 typing-extensions==3.10.0.2
-urllib3==1.26.6
+urllib3==1.26.7
 yarl==1.6.3
