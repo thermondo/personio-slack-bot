@@ -4,15 +4,16 @@
 #
 #    pip-compile --no-annotate requirements_dev.in
 #
-aiohttp==3.7.4.post0
-async-timeout==3.0.1
+aiohttp==3.8.0
+aiosignal==1.2.0
+async-timeout==4.0.0a3
 attrs==21.2.0
 black==21.9b0
 certifi==2021.10.8
-chardet==4.0.0
 charset-normalizer==2.0.6
 click==8.0.3
 flake8==4.0.1
+frozenlist==1.2.0
 idna==3.3
 invoke==1.6.0
 isort==5.9.3
