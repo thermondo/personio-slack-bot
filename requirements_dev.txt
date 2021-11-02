@@ -38,7 +38,7 @@ tomli==1.2.2
 typing-extensions==3.10.0.2
 urllib3==1.26.7
 wheel==0.37.0
-yarl==1.7.0
+yarl==1.7.2
 
 # The following packages are considered to be unsafe in a requirements file:
 # pip
