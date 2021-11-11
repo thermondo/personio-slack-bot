@@ -6,7 +6,7 @@
 #
 aiohttp==3.8.0
 aiosignal==1.2.0
-async-timeout==4.0.0
+async-timeout==4.0.1
 attrs==21.2.0
 black==21.10b0
 certifi==2021.10.8
