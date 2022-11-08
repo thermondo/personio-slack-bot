@@ -25,7 +25,7 @@ packaging==21.3
 pathspec==0.10.1
 pep517==0.13.0
 pip-tools==6.9.0
-platformdirs==2.5.2
+platformdirs==2.5.3
 pycodestyle==2.8.0
 pydocstyle==6.1.1
 pyflakes==2.4.0
