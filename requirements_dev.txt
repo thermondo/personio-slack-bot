@@ -26,7 +26,7 @@ pathspec==0.10.3
 pip-tools==6.12.1
 platformdirs==2.6.2
 pycodestyle==2.8.0
-pydocstyle==6.2.3
+pydocstyle==6.3.0
 pyflakes==2.4.0
 pyproject-hooks==1.0.0
 python-dateutil==2.8.2
