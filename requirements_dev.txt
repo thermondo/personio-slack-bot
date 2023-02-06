@@ -20,7 +20,7 @@ invoke==2.0.0
 isort==5.11.4
 mccabe==0.6.1
 multidict==6.0.4
-mypy-extensions==0.4.3
+mypy-extensions==1.0.0
 packaging==23.0
 pathspec==0.11.0
 pip-tools==6.12.1
