@@ -3,8 +3,11 @@ updates:
   - package-ecosystem: pip
     directory: "/"
     schedule:
-      interval: daily
-      time: "04:30"
+      interval: weekly
+      day: "monday"
+      time: "06:00"
+    reviewers:
+      - "thermondo/platform"
     allow:
       - dependency-type: direct
       - dependency-type: indirect
