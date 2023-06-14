@@ -37,7 +37,7 @@ slackclient==2.9.4
 snowballstemmer==2.2.0
 tomli==2.0.1
 typing-extensions==4.5.0
-urllib3==1.26.15
+urllib3==1.26.16
 wheel==0.40.0
 yarl==1.9.2
 
