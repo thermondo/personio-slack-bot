@@ -11,7 +11,7 @@ attrs==23.1.0
 black==23.9.1
 build==1.0.3
 certifi==2023.7.22
-charset-normalizer==3.3.0
+charset-normalizer==3.3.2
 click==8.1.7
 flake8==6.1.0
 frozenlist==1.4.0
