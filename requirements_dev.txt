@@ -30,7 +30,7 @@ pep517==0.13.1
 pip-api==0.0.30
 pip-tools==7.3.0
 pipreqs==0.4.13
-platformdirs==4.0.0
+platformdirs==4.1.0
 plette[validation]==0.4.4
 pycodestyle==2.11.1
 pydantic==2.5.2
