@@ -35,7 +35,7 @@ six==1.16.0
 slackclient==2.9.4
 snowballstemmer==2.2.0
 urllib3==2.2.1
-wheel==0.42.0
+wheel==0.43.0
 yarl==1.9.4
 
 # The following packages are considered to be unsafe in a requirements file:
