@@ -29,7 +29,7 @@ pydocstyle==6.3.0
 pyflakes==3.2.0
 pyproject-hooks==1.1.0
 python-dateutil==2.9.0.post0
-requests==2.32.2
+requests==2.32.3
 sentry-sdk==2.3.1
 six==1.16.0
 slackclient==2.9.4
