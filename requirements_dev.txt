@@ -15,7 +15,7 @@ charset-normalizer==3.3.2
 click==8.1.7
 flake8==7.1.1
 frozenlist==1.4.1
-idna==3.7
+idna==3.8
 invoke==2.2.0
 isort==5.13.2
 mccabe==0.7.0
