@@ -19,7 +19,7 @@ idna==3.10
 invoke==2.2.0
 isort==5.13.2
 mccabe==0.7.0
-multidict==6.0.5
+multidict==6.1.0
 mypy-extensions==1.0.0
 packaging==24.1
 pathspec==0.12.1
