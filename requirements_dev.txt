@@ -37,7 +37,7 @@ slackclient==2.9.4
 snowballstemmer==2.2.0
 urllib3==2.2.3
 wheel==0.44.0
-yarl==1.11.1
+yarl==1.13.1
 
 # The following packages are considered to be unsafe in a requirements file:
 # pip
