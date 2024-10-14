@@ -25,6 +25,7 @@ packaging==24.1
 pathspec==0.12.1
 pip-tools==7.4.1
 platformdirs==4.3.6
+propcache==0.2.0
 pycodestyle==2.12.1
 pydocstyle==6.3.0
 pyflakes==3.2.0
@@ -37,7 +38,7 @@ slackclient==2.9.4
 snowballstemmer==2.2.0
 urllib3==2.2.3
 wheel==0.44.0
-yarl==1.13.1
+yarl==1.15.2
 
 # The following packages are considered to be unsafe in a requirements file:
 # pip
