@@ -20,4 +20,4 @@ sentry-sdk==2.24.1
 six==1.17.0
 slackclient==2.9.4
 urllib3==2.3.0
-yarl==1.18.3
+yarl==1.19.0
