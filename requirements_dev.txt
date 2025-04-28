@@ -32,7 +32,7 @@ pyflakes==3.3.2
 pyproject-hooks==1.2.0
 python-dateutil==2.9.0.post0
 requests==2.32.3
-sentry-sdk==2.25.1
+sentry-sdk==2.27.0
 six==1.17.0
 slackclient==2.9.4
 snowballstemmer==2.2.0
