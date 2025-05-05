@@ -11,7 +11,7 @@ attrs==25.3.0
 black==25.1.0
 build==1.2.2.post1
 certifi==2025.4.26
-charset-normalizer==3.4.1
+charset-normalizer==3.4.2
 click==8.1.8
 flake8==7.2.0
 frozenlist==1.6.0
