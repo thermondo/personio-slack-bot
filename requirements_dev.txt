@@ -36,7 +36,7 @@ sentry-sdk==2.34.1
 six==1.17.0
 slackclient==2.9.4
 snowballstemmer==3.0.1
-typing-extensions==4.14.1
+typing-extensions==4.15.0
 urllib3==2.5.0
 wheel==0.45.1
 yarl==1.20.1
