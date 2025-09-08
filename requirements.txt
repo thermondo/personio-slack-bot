@@ -15,7 +15,7 @@ idna==3.10
 multidict==6.6.3
 propcache==0.3.2
 python-dateutil==2.9.0.post0
-requests==2.32.4
+requests==2.32.5
 sentry-sdk==2.34.1
 six==1.17.0
 slackclient==2.9.4
